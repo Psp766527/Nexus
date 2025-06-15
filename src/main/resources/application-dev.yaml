@@ -1,0 +1,14 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+    enable-self-preservation: true  # Enable in shared environments
+
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8761
