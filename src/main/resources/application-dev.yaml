@@ -4,7 +4,9 @@ eureka:
     fetch-registry: false
   server:
     wait-time-in-ms-when-sync-empty: 0
-    enable-self-preservation: true  # Enable in shared environments
+    enable-self-preservation: true
+  environment: dev
+
 
 logging:
   level:
